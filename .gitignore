@@ -1,1 +1,9 @@
+# Python cache
+*.pyc
+
+# IDE settings
 /.idea/
+
+# setuptools & twine generated files
+/separse.egg-info/
+/dist/
