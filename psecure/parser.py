@@ -51,6 +51,31 @@ class Constants(enum.Enum):
         "m_n": scipy.constants.m_n
     }
 
+class Operations:
+    @staticmethod
+    def add(a: int | float, b: int | float) -> int | float:
+        return a + b
+
+    @staticmethod
+    def sub(a: int | float, b: int | float) -> int | float:
+        return a - b
+
+    @staticmethod
+    def mul(a: int | float, b: int | float) -> int | float:
+        return a * b
+
+    @staticmethod
+    def div(a: int | float, b: int | float) -> int | float:
+        return a / b
+
+    @staticmethod
+    def pow(a: int | float, b: int | float) -> int | float:
+        return a ** b
+
+    @staticmethod
+    def mod(a: int | float, b: int | float) -> int | float:
+        return a % b
+
 class Parser:
     def __init__(self, expression: str):
         self.expression = expression.replace(" ", "")
