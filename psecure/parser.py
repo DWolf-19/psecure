@@ -1,7 +1,7 @@
 import math
 import enum
 
-import scipy
+import scipy.constants
 
 
 class Constants(enum.Enum):
