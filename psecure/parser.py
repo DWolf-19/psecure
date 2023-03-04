@@ -6,10 +6,11 @@ import scipy
 
 class Constants(enum.Enum):
     MATH_CONSTANTS = {
-        "PI": math.pi,
-        "E": math.e,
+        "pi": math.pi,
+        "e": math.e,
         # Golden ratio
-        "GOLDEN": scipy.constants.golden
+        "golden": scipy.constants.golden
+    }
 
     PHYSIC_CONSTANTS = {
         # Speed of light in vacuum
